@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_kiraje_Umani_1705900774075-push-trigger-input-set
+  identifier: Build_kiraje_Umani_1705900774075pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: dca
+  pipeline:
+    identifier: Build_kiraje_Umani_1705900774075
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
