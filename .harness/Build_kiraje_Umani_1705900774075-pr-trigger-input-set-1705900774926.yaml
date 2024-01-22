@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_kiraje_Umani_1705900774075-pr-trigger-input-set
+  identifier: Build_kiraje_Umani_1705900774075prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: dca
+  pipeline:
+    identifier: Build_kiraje_Umani_1705900774075
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
