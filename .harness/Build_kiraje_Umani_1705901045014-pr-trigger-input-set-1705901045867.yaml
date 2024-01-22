@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_kiraje_Umani_1705901045014-pr-trigger-input-set
+  identifier: Build_kiraje_Umani_1705901045014prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: ca
+  pipeline:
+    identifier: Build_kiraje_Umani_1705901045014
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
